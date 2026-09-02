@@ -1,14 +1,14 @@
 /**
  * legalmind 业务 API —— 法律工作台（对位 contract-types business/legal）
  */
-import { apiClient } from '../ApiClient';
+import { apiClient } from './ApiClient';
 import {
   WorkbenchSummary,
   RecentWorkItem,
   LegalCase,
   LegalPage,
 } from '@huntercat/ark-contract-types';
-import { QueryParam } from '../http/HttpClient';
+import { QueryParam } from './HttpClient';
 
 /** 工作台统计 */
 export async function getWorkbenchSummary(): Promise<WorkbenchSummary> {

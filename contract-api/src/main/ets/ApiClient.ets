@@ -6,6 +6,6 @@
  *   apiClient.setTokenProvider(() => session.accessToken)
  *   apiClient.setUnauthorizedHandler(() => { ... 登出 })
  */
-import { HttpClient } from './http/HttpClient';
+import { HttpClient } from './HttpClient';
 
 export const apiClient: HttpClient = new HttpClient();

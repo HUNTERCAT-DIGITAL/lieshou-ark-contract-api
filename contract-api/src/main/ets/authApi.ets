@@ -1,7 +1,7 @@
 /**
  * 认证 API —— 对位 contract-api auth 模块
  */
-import { apiClient } from '../ApiClient';
+import { apiClient } from './ApiClient';
 import {
   LoginRequest,
   TokenResponse,
