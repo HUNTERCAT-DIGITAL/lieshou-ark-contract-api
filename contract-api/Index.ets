@@ -4,4 +4,4 @@
  * - apiClient（模块级单例配置）
  * - authApi / legalApi（业务 API）
  */
-export * from './src/main/ets/index';
+export * from './src/main/ets/lib/index';
