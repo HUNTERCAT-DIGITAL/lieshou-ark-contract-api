@@ -1,0 +1,3 @@
+[submodule "open/ark-contract-types"]
+	path = open/ark-contract-types
+	url = git@github.com:HUNTERCAT-DIGITAL/lieshou-ark-contract-types.git

@@ -1,0 +1,11 @@
+{
+  "name": "@huntercat/ark-contract-api",
+  "version": "1.0.0",
+  "description": "鸿蒙 REST 客户端（@ohos.net.http · 对位 contract-api）",
+  "main": "Index.ets",
+  "author": "HUNTERCAT-DIGITAL",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@huntercat/ark-contract-types": "file:../open/ark-contract-types/contract-types"
+  }
+}

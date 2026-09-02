@@ -1,0 +1,16 @@
+{
+  "name": "lieshou-ark-contract-api",
+  "version": "1.0.0",
+  "ohos": {
+    "org": "huntercat",
+    "buildTool": "hvigor",
+    "directoryLevel": "project"
+  },
+  "description": "鸿蒙 REST 客户端 HAR（@ohos.net.http）",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@ohos/hypium": "1.0.23",
+    "@ohos/hvigor": "6.24.4",
+    "@ohos/hvigor-ohos-plugin": "6.24.4"
+  }
+}

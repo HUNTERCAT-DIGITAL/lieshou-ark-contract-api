@@ -1,0 +1,10 @@
+{
+  "module": {
+    "name": "contract_api",
+    "type": "har",
+    "description": "鸿蒙 REST 客户端",
+    "deviceTypes": [
+      "default"
+    ]
+  }
+}
