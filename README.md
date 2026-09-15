@@ -18,7 +18,7 @@ open/ark-contract-types/  # submodule：ArkTS 契约类型（类型来源）
 
 ```ts
 import { apiClient } from '@huntercat/ark-contract-api';
-apiClient.setBaseUrl('https://legalmind.lieshou.huntercat.cn'); // 纯域名，禁止 /api
+apiClient.setBaseUrl('https://console.example.com'); // 纯域名，禁止 /api
 apiClient.setTokenProvider(() => session.accessToken);
 apiClient.setUnauthorizedHandler(() => { /* 登出跳登录 */ });
 ```
